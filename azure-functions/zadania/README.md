@@ -2,7 +2,7 @@
 
 **1.Stwórz funkcję, która będzie co 30 sekund logowała datę/czas. Zmiana formatu daty powinna być możliwa bez zmian w kodzie \(format daty pobierany z ustawień aplikacji\).**
 
-**2.Nie podobają Ci się narzędzia, takie jak Microsoft ToDo - są zbyt skomplikowane. Twoim zadaniem jest stworzenie własnej, prostej listy ToDo za pomocą Azure Functions. Aplikacja powinna zawierać poniższe funkcjonalności:** 
+**2.Nie podobają Ci się narzędzia, takie jak Microsoft ToDo - są zbyt skomplikowane. Twoim zadaniem jest stworzenie własnej, prostej listy ToDo za pomocą Azure Functions. Aplikacja powinna zawierać poniższe funkcjonalności:**
 
 * Dodawanie zadań
 * Zwracanie listy zadań
@@ -22,6 +22,4 @@ W podstawowej formie zadania zaimplementuj rozwiązanie na statycznej liście ob
   * Stworzenie Blob Storage i ustawienie go na static website 
   * Wrzucenie na static website plików z formularzem 
   * Dodanie proxy do Azure Functions 
-
-
 

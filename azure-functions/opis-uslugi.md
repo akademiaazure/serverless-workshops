@@ -8,7 +8,7 @@ Azure Functions umożliwia uruchamianie małych frogmentów kodu - funkcji w chm
 * PowerShell
 * Python
 
-Azure Functions daje sporo możliwości tworzenia oprogramowania. Pierwszą zaletą korzystania z tej usługi jest model płatności, w którym płacisz za ilość wywołań oraz czas pracy funkcji. Ponadto możliwe jest korzystanie z bibliotek - obsługiwane są rozwiązania NuGet oraz npm. Ważną zaletą tej usługi są również zintegrowane zabezpieczenia, które dostajemy out of the box. Za pomocą protokołu HTTP - za pośrednictwem dostawców uwierzytelniania OAuth, takich jak Azure Active Directory, Facebook, Google, Twitter i Microsoft Account. 
+Azure Functions daje sporo możliwości tworzenia oprogramowania. Pierwszą zaletą korzystania z tej usługi jest model płatności, w którym płacisz za ilość wywołań oraz czas pracy funkcji. Ponadto możliwe jest korzystanie z bibliotek - obsługiwane są rozwiązania NuGet oraz npm. Ważną zaletą tej usługi są również zintegrowane zabezpieczenia, które dostajemy out of the box. Za pomocą protokołu HTTP - za pośrednictwem dostawców uwierzytelniania OAuth, takich jak Azure Active Directory, Facebook, Google, Twitter i Microsoft Account.
 
 Warto też wspomnieć, że Azure Functions jest Open Source, a cały kod dostępny jest w serwisie [GitHub](https://github.com/Azure/azure-functions-host).
 

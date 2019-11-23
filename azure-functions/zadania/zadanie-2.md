@@ -1,6 +1,6 @@
 # Zadanie 2
 
-**Nie podobają Ci się narzędzia, takie jak Microsoft ToDo - są zbyt skomplikowane. Twoim zadaniem jest stworzenie własnej, prostej listy ToDo za pomocą Azure Functions. Aplikacja powinna zawierać poniższe funkcjonalności:** 
+**Nie podobają Ci się narzędzia, takie jak Microsoft ToDo - są zbyt skomplikowane. Twoim zadaniem jest stworzenie własnej, prostej listy ToDo za pomocą Azure Functions. Aplikacja powinna zawierać poniższe funkcjonalności:**
 
 * Dodawanie zadań
 * Zwracanie listy zadań
@@ -34,15 +34,13 @@ Kolejna funkcja odpowiada za usuwanie danych z listy. Tym razem musimy odczytać
 
 Ostatnia z funkcji odpowiada za zmianę stanu obiektu. Podobnie jak w przypadku delete - sprawdzamy czy obiekt istnieje - jeżeli tak zmieniamy mu wartość Checked na przeciwną do obecnej.
 
-
-
 ![](../../.gitbook/assets/image%20%286%29.png)
 
 Po uruchomieniu projektu oraz statycznej strony HTML możemy sprawdzić działanie funkcji.
 
 ![](../../.gitbook/assets/image%20%284%29.png)
 
-**Uwaga!!! Należy się upewnić, że port na którym działają funkcje jest identyczny jak ten zdefiniowany w statycznej stronie HTML.** 
+**Uwaga!!! Należy się upewnić, że port na którym działają funkcje jest identyczny jak ten zdefiniowany w statycznej stronie HTML.**
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 

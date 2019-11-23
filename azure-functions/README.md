@@ -8,5 +8,3 @@
 
 {% page-ref page="praca-domowa.md" %}
 
-
-

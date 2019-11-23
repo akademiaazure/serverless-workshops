@@ -2,7 +2,7 @@
 
 Azure Logic Apps to usługa, która pomaga zaplanować, zautomatyzować i organizować zadania lub procesy biznesowe, gdy trzeba zintegrować aplikacje, dane, systemy i usługi między przedsiębiorstwami lub organizacjami. Usługa ułatwia projektowanie i tworzenie skalowalnych rozwiązań na potrzeby integracji aplikacji, danych, systemów, usług oraz komunikacji między firmami \(B2B\), zarówno w chmurze, jak i środowisku lokalnym.
 
-Każdy przepływ rozpoczyna się od wyzwalacza, który jest aktywowany, gdy zajdzie określone zdarzenie. 
+Każdy przepływ rozpoczyna się od wyzwalacza, który jest aktywowany, gdy zajdzie określone zdarzenie.
 
 Po każdym aktywowaniu wyzwalacza usługa uruchamia akcje przepływu pracy. Te akcje mogą również obejmować konwersje danych i kontrole przepływów, na przykład instrukcje warunkowe, instrukcje switch, pętle i rozgałęziania. Przykładem może być plik, który jest wrzucany na Storage Account. Jeśli wyzwalacz wykryje zdarzenie zgodne z tymi kryteriami, aktywuje się i uruchamia akcje przepływu pracy. W tym przypadku akcje obejmują transformacje XML, aktualizacje danych, rozgałęzienia decyzji i powiadomienia e-mail.
 

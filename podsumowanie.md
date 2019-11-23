@@ -2,21 +2,17 @@
 
 To wszystko na dziś. Mamy nadzieję, że wyniosłeś/aś coś z tych zajęć. Poniżej znajdują się materiały do nauki z poszczególnych usług.
 
-### Azure Functions
+## Azure Functions
 
-{% embed url="https://docs.microsoft.com/en-us/azure/azure-functions/" %}
+{% embed url="https://docs.microsoft.com/en-us/azure/azure-functions/" caption="" %}
 
+## Logic Apps
 
+{% embed url="https://docs.microsoft.com/en-us/azure/logic-apps/" caption="" %}
 
-### Logic Apps
+## Event Grid
 
-{% embed url="https://docs.microsoft.com/en-us/azure/logic-apps/" %}
+{% embed url="https://docs.microsoft.com/en-us/azure/event-grid/" caption="" %}
 
-### Event Grid
-
-{% embed url="https://docs.microsoft.com/en-us/azure/event-grid/" %}
-
-
-
-#### Uwaga!!! Pamiętaj o usunięciu zasobów, które dziś utworzyłeś/łaś.
+### Uwaga!!! Pamiętaj o usunięciu zasobów, które dziś utworzyłeś/łaś.
 

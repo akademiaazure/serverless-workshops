@@ -18,9 +18,9 @@ Każdy z modułów zawiera pracę domową z zadaniami do poszczególnych usług.
 
 Poniżej znajdują się wymagania, jakie należy spełnić przed warsztatami oraz przybliżony plan warsztatów.
 
-### Wymagania:
+## Wymagania:
 
-#### Must have:
+### Must have:
 
 * Własny laptop
 * Zainstalowane Visual Studio 2017+ lub Visual Studio Code \(z zainstalowanymi Azure extensions\)
@@ -29,13 +29,13 @@ Poniżej znajdują się wymagania, jakie należy spełnić przed warsztatami ora
 * Podstawowa znajomość GIT \(clone, pull, push, tags\)
 * Zainstalowany .NET Core 2.2
 
-#### Nice to have:
+### Nice to have:
 
 * Podstawowa znajomość portalu Azure
 * Podstawowa znajomość usług Storage Account
 * Azure Storage Explorer
 
-### Plan warsztatów:
+## Plan warsztatów:
 
 * 9:00 - 9:40 - Wstęp do Serverless
 * 9:50 - 10:00 - Przerwa

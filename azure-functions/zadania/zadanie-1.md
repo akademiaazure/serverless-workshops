@@ -6,7 +6,7 @@ Uruchamiamy Visual Studio i wybieramy Azure Functions.
 
 ![](../../.gitbook/assets/image%20%282%29.png)
 
-W kolejnym kroku nadajemy jej nazwę, po czym wybieramy odpowiedni trigger - Timer trigger. Będzie się on wyzwalał, co pewien - zdefiniowany w formacie CRON  czas. Ustawiamy mu uruchamianie się co 30 sekund i klikamy Create.
+W kolejnym kroku nadajemy jej nazwę, po czym wybieramy odpowiedni trigger - Timer trigger. Będzie się on wyzwalał, co pewien - zdefiniowany w formacie CRON czas. Ustawiamy mu uruchamianie się co 30 sekund i klikamy Create.
 
 ![](../../.gitbook/assets/image%20%2821%29.png)
 

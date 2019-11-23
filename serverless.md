@@ -24,6 +24,3 @@ Zalety podejścia _serverless_:
 
 ![](.gitbook/assets/image%20%2822%29.png)
 
-  
-
-

@@ -26,5 +26,5 @@ Przykłady wyzwalaczy:
 
 [Pełna lista wiązań i wsparcie dla poszczególnych typów.](https://docs.microsoft.com/en-in/azure/azure-functions/functions-triggers-bindings#supported-bindings)
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![](../.gitbook/assets/image%20%2821%29.png)
 

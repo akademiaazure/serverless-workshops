@@ -29,15 +29,15 @@ Authorization level pozwala nałożyć autoryzacje na funkcje. Są 3 poziomy aut
 
 Następnie instalujemy biblioteki potrzebne przekazania wiadomości do kolejek oraz obsługi wysyłki maili.
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
 Kolejnym krokiem będzie utworzenie modelu, za pomocą którego nastąpi deserializacja danych z Body requestu.
 
-![](../../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Mając model możemy już pobrać dane z zapytania, następnie je zwalidować i przesłać do odpowiednich kolejek.
 
-![](../../.gitbook/assets/image%20%2835%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 ### Stworzenie kolejek lokalnie
 
@@ -45,29 +45,29 @@ Dla uproszczenia stworzymy kolejki lokalnie za pomocą programu Azure Storage Ex
 
 
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 Aby przetestować stworzoną funkcję należy uruchomić Azure Function App lokalnie. W konsoli dostaniemy informacje o funkcjach oraz ich adresach.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 Do wysłania zapytania możemy skorzystać z programu Postman lub wykorzystując gotowy formularz. W przypadku wykorzystania gotowego formularza należy wstawić adres URL funkcji w pliku /js/main.js.
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 Następnie uruchamiamy formularz \(index.html\) i wysyłamy przykładowe dane.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 W przypadku błędu związanego z regułami CORS należy dodać politykę CORS do pliku local.settings.json.
 
-![](../../.gitbook/assets/image%20%2844%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 Następnie za pomocą Azure Storage Explorer sprawdzamy czy dane zostały zapisane pomyślnie do kolejek.
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%286%29.png)
 
 ### Funkcja 2 - SaveToTableStorage.cs
 

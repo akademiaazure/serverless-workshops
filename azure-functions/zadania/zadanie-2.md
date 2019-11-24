@@ -14,11 +14,11 @@ Tak jak w poprzednim zadaniu, tworzymy projekt Azure Functions, jednak w tym prz
 
 Tworzymy statyczną - widoczną dla wszystkich funkcji listę Todos, która będzie przetrzymywała dane.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 Klasa ToDo powinna zostać zaimplementowana jak poniżej.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 Implementujemy teraz funkcjonalność. W HttpTrigger definiujemy AutorizationLevel, metodę requesta oraz routing. W tej funkcji zwracamy tylko listę Todos.
 
@@ -48,7 +48,7 @@ Po uruchomieniu projektu oraz statycznej strony HTML możemy sprawdzić działan
 
 **Ponadto, jeżeli w przeglądarce będą problemy z pobraniem zawartości a w konsoli będzie błąd związany z CORS, w local.settings.json należy dodać kod, jak na zdjęciu poniżej. Pozwoli on na wykonywanie żądań do funkcji z dowolnego adresu.**
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 **Wydzielenie listy zadań do Table Storage\***
 
@@ -56,13 +56,13 @@ Zadanie należy zacząć od dodanie nugeta Microsoft.Azure.WebJobs.Extensions.St
 
 Następnie obiekt ToDo zmieniamy tak, aby dziedziczył z klasy TableEntity - dostarczonej przez zainstalowany uprzednio nuget.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2837%29.png)
 
 Dane będą przetrzymywane na lokalnym środowisku, za co odpowiada ustawienie AzureWebJobsStorage.
 
 Zmieniamy pierwszą z funkcji tak, aby zwracała dane z Table Storage. Musimy stworzyć query, które będzie zwracało wszystkie dane ze zdefiniowanej przez nas tabeli. Ponadto dodajemy nowy parametr do funkcji - Table, który "połączy" ją ze zdefiniowaną przez nas tabelą. W połączeniu podajemy wartość z local.settings.json.
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image%20%2857%29.png)
 
 W kolejnych przypadkach należy skorzystać z możliwości dodanego nugeta. Pamiętaj, aby dla każdego rekordu zdefiniować PartitionKey oraz RowKey. Poniżej funkcja dodania nowego rekordu.
 
@@ -70,11 +70,11 @@ W kolejnych przypadkach należy skorzystać z możliwości dodanego nugeta. Pami
 
 Funkcja usuwania danych.
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2851%29.png)
 
 Funkcja zmiany stanu obiektu.
 
-![](../../.gitbook/assets/image%20%2846%29.png)
+![](../../.gitbook/assets/image%20%2850%29.png)
 
 Uruchamiamy projekt - wynik powinien być identyczny jak w pierwszym przypadku.
 

@@ -28,6 +28,7 @@ Poniżej znajdują się wymagania, jakie należy spełnić przed warsztatami ora
 * Subskrypcja w Microsoft Azure
 * Podstawowa znajomość GIT \(clone, pull, push, tags\)
 * Zainstalowany .NET Core 2.2
+* Microsoft Azure Storage Emulator
 
 ### Nice to have:
 

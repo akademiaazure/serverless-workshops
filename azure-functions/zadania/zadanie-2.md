@@ -16,19 +16,19 @@ Tak jak w poprzednim zadaniu, tworzymy projekt Azure Functions, jednak w tym prz
 
 Tworzymy statyczną - widoczną dla wszystkich funkcji listę Todos, która będzie przetrzymywała dane.
 
-![](../../.gitbook/assets/image%20%2857%29.png)
+![](../../.gitbook/assets/image%20%2866%29.png)
 
 Klasa ToDo powinna zostać zaimplementowana jak poniżej.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2848%29.png)
 
 Implementujemy teraz funkcjonalność. W HttpTrigger definiujemy AutorizationLevel, rodzaj zapytania oraz routing. W tej funkcji zwracamy tylko listę Todos.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 Kolejna funkcja odpowiada za dodawanie danych do listy. Musimy podbrać dane z requesta - tym razem jest to post \(należy pobrać body\), zwalidować je i jeśli są poprawne - dodać nowy rekord do listy zadań.
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Kolejna funkcja odpowiada za usuwanie danych z listy. Tym razem musimy odczytać dane z query, z wysłanym parametrem - id. Sprawdzamy, czy taki obiekt istnieje - jeśli tak, usuwamy.
 
@@ -38,7 +38,7 @@ Ostatnia z funkcji odpowiada za zmianę stanu obiektu. Podobnie jak w przypadku 
 
 
 
-![](../../.gitbook/assets/image%20%2815%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 Po uruchomieniu projektu oraz statycznej strony HTML możemy sprawdzić działanie funkcji.
 
@@ -46,13 +46,13 @@ Po uruchomieniu projektu oraz statycznej strony HTML możemy sprawdzić działan
 
 **Uwaga!!! Należy się upewnić, że port na którym działają funkcje jest identyczny jak ten zdefiniowany w statycznej stronie HTML.** 
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2841%29.png)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 Ponadto, jeżeli w przeglądarce będą problemy z pobraniem zawartości a w konsoli będzie błąd związany z CORS, w local.settings.json należy dodać kod, jak na zdjęciu poniżej. Pozwoli on na wykonywanie żądań do funkcji z dowolnego adresu.
 
-![](../../.gitbook/assets/image%20%2896%29.png)
+![](../../.gitbook/assets/image%20%28111%29.png)
 
 ### **Wydzielenie listy zadań do Table Storage\***
 
@@ -66,25 +66,25 @@ Do pracy z Table Storage w Azure Functions potrzebna będzie biblioteka Microsof
 
 Następnie obiekt ToDo zmieniamy tak, aby dziedziczył z klasy TableEntity - dostarczonej przez zainstalowaną uprzednio bibliotekę.
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2875%29.png)
 
 Dane będą przetrzymywane na lokalnym środowisku, za co odpowiada ustawienie AzureWebJobsStorage.
 
 Zmieniamy pierwszą z funkcji tak, aby zwracała dane z Table Storage. Musimy stworzyć query, które będzie zwracało wszystkie dane ze zdefiniowanej przez nas tabeli. Ponadto dodajemy nowy parametr do funkcji - Table, który "połączy" ją ze zdefiniowaną przez nas tabelą. W połączeniu podajemy wartość z local.settings.json.
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%28110%29.png)
 
 W kolejnych przypadkach należy skorzystać z możliwości dodanego nugeta. Pamiętaj, aby dla każdego rekordu zdefiniować PartitionKey oraz RowKey. Poniżej funkcja dodania nowego rekordu.
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+![](../../.gitbook/assets/image%20%2835%29.png)
 
 Funkcja usuwania danych.
 
-![](../../.gitbook/assets/image%20%2885%29.png)
+![](../../.gitbook/assets/image%20%2899%29.png)
 
 Funkcja zmiany stanu obiektu.
 
-![](../../.gitbook/assets/image%20%2881%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 Uruchamiamy projekt - wynik powinien być identyczny jak w pierwszym przypadku.
 

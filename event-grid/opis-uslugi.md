@@ -14,5 +14,5 @@ Pojęcia przydatne przy pracy z Azure Event Grid:
 * **Event Subscription** — endpoint lub wbudowany mechanizm przekierowywania zdarzeń, czasami do więcej niż jednego handlera. Subskrypcje są również używane przez handlery w celu inteligentnego filtrowania przychodzących zdarzeń.
 * **Event Handlers** — aplikacje lub usługi reagujące na zdarzenia
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
